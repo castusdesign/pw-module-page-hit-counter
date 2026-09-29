@@ -45,7 +45,6 @@ If that finds nothing, `git revert` the patch commit on `main` during the update
 1. **One-time setup** in your clone:
 
    ```sh
-   git config core.autocrlf false   # upstream files use CRLF; keep bytes exact
    git remote add upstream https://github.com/flipzoom/PageHitCounter.git
    ```
 
