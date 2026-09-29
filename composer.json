@@ -1,0 +1,13 @@
+{
+    "name": "castusdesign/pw-module-page-hit-counter",
+    "description": "PageHitCounter ProcessWire module, packaged for Composer with Castus patches",
+    "type": "processwire-module",
+    "license": "MIT",
+    "homepage": "https://github.com/castusdesign/pw-module-page-hit-counter",
+    "require": {
+        "composer/installers": "^1.0 || ^2.0"
+    },
+    "extra": {
+        "installer-name": "PageHitCounter"
+    }
+}
