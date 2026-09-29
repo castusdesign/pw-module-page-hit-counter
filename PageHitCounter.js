@@ -64,7 +64,7 @@
                     if(xhr.status !== 200) {
                         console.error('Page Hit Counter: Request failed. Returned status of ' + xhr.status);
                     } else {
-                        console.info('Page Hit Counter: Tracked. ' + xhr.responseText);
+                        console.info('Page Hit Counter: Tracked.');
                     }
                 };
                 xhr.send(encodeURI('pid=' + pid));
